@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo trabalhista</title>
+</head>
+
+<h1>Cálculo Trabalhista</h1>
+
+<body>
+
+
+
+    
+    <P>Valor da hora: <input type="number" id="vh" step="0.1" required></P>
+
+    <P>Horas trabalhadas: <input type="number" id="th" step="1" required></P>
+
+    <p>Vale-Transporte:</p>
+
+    <label>
+
+        <input type="radio" name="vale" value = "sim" id="vale"> Sim
+
+    </label><br>
+
+    <label>
+
+        <input type="radio" name="vale" value = "nao" id="vale"> Não
+
+    </label><br>
+
+    <P>Outras deduções: <input type="number" id="od" step="0.1" ></P>
+
+
+    <button onclick="registrar()">registrar</button>
+
+
+    <p id="r"></p>
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
